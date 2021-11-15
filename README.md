@@ -14,14 +14,14 @@ __________________________________________________________________
 <strong>Solution</strong>
 
 function toWeirdCase(string){<br>
-&nbsp;&nbsp;let ans=[]<br>
-&nbsp;&nbsp;let count=0<br>
-&nbsp;&nbsp;string.toLowerCase().split('').forEach((value , i)=>{<br>
-&nbsp;&nbsp;&nbsp;if(count==0 || count%2==0) ans.push(value.toUpperCase())  <br>
-&nbsp;&nbsp;&nbsp;else ans.push(value)    <br>
-&nbsp;&nbsp;&nbsp;count++     <br>
-&nbsp;&nbsp;&nbsp;if(value==' ') count=0    <br>
-&nbsp;&nbsp;&nbsp;})<br>
-&nbsp;&nbsp;ans=ans.join('')<br>
-&nbsp;&nbsp;return ans<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let ans=[]<br>
+&nbsp;&nbsp;&nbsp;&nbsp;let count=0<br>
+&nbsp;&nbsp;&nbsp;&nbsp;string.toLowerCase().split('').forEach((value , i)=>{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(count==0 || count%2==0) ans.push(value.toUpperCase())  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;else ans.push(value)    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;count++     <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if(value==' ') count=0    <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;})<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ans=ans.join('')<br>
+&nbsp;&nbsp;&nbsp;&nbsp;return ans<br>
 }<br>
