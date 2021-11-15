@@ -13,8 +13,8 @@ __________________________________________________________________
 
 <strong>Solution</strong>
 
-function toWeirdCase(string){
-    let ans=[]
+function toWeirdCase(string){<br>
+    let ans=[]<br>
     let count=0
     string.toLowerCase().split('').forEach((value , i)=>{
       if(count==0 || count%2==0) ans.push(value.toUpperCase())  
