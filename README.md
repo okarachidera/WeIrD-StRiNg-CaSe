@@ -14,8 +14,8 @@ __________________________________________________________________
 <strong>Solution</strong>
 
 function toWeirdCase(string){<br>
-    let ans=[]<br>
-    let count=0<br>
+&nbsp;let ans=[]<br>
+&nbsp;let count=0<br>
     string.toLowerCase().split('').forEach((value , i)=>{<br>
       if(count==0 || count%2==0) ans.push(value.toUpperCase())  <br>
       else ans.push(value)    <br>
