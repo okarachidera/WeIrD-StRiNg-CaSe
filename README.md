@@ -8,9 +8,10 @@ The passed in string will only consist of alphabetical characters and spaces(' '
 Examples:
 toWeirdCase( "String" );//=> returns "StRiNg"
 toWeirdCase( "Weird string case" );//=> returns "WeIrD StRiNg CaSe"
+<br>
 __________________________________________________________________
 
-Solution
+<strong>Solution</strong>
 
 function toWeirdCase(string){
     let ans=[]
