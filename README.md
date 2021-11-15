@@ -14,14 +14,14 @@ __________________________________________________________________
 <strong>Solution</strong>
 
 function toWeirdCase(string){<br>
-    let ans=[]<br>
-    let count=0
-    string.toLowerCase().split('').forEach((value , i)=>{
-      if(count==0 || count%2==0) ans.push(value.toUpperCase())  
-      else ans.push(value)    
-      count++     
-      if(value==' ') count=0    
-    })
-    ans=ans.join('')
-    return ans
+ <span> </span>let ans=[]<br>
+ <span> </span>let count=0
+ <span> </span>string.toLowerCase().split('').forEach((value , i)=>{
+ <span>     </span>if(count==0 || count%2==0) ans.push(value.toUpperCase())  
+ <span>     </span>else ans.push(value)    
+ <span>     </span>count++     
+ <span>     </span>if(value==' ') count=0    
+ <span>     </span>})
+ <span> </span>ans=ans.join('')
+ <span> </span>return ans
 }
